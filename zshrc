@@ -15,6 +15,9 @@ plugins=(
 )
 
 source $ZSH/oh-my-zsh.sh
+for file in $HOME/.dotfiles/sourced/*; do
+   source "$file"
+ done
 
 # User configuration
 
