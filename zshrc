@@ -1,7 +1,4 @@
 
-export ZSH="$HOME/.oh-my-zsh"
-ZSH_THEME="avit"
-
 DISABLE_AUTO_UPDATE="true"
 DISABLE_AUTO_TITLE="true"
 ENABLE_CORRECTION="true"
@@ -22,7 +19,7 @@ zplug "plugins/asdf", from:oh-my-zsh
 zplug "zsh-users/zsh-syntax-highlighting"
 zplug "lukechilds/zsh-nvm"
 
-zplug 'themes/avit', from:oh-my-zsh, as:theme
+zplug 'themes/blinks', from:oh-my-zsh, as:theme
 
 if ! zplug check --verbose; then
     printf "Install? [y/N]: "
