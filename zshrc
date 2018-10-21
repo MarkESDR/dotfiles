@@ -8,21 +8,28 @@ ENABLE_CORRECTION="true"
 COMPLETION_WAITING_DOTS="true"
 HIST_STAMPS="yyyy-mm-dd"
 
-plugins=(
-  git
-  yarn
-  sudo
-  npm
-  httpie
-  command-not-found
-  asdf
-  zsh-syntax-highlighting
-)
 
-source $ZSH/oh-my-zsh.sh
+# ZPlug config
+source ~/.zplug/init.zsh
+
+zplug "plugins/git", from:oh-my-zsh
+zplug "plugins/yarn", from:oh-my-zsh
+zplug "plugins/sudo", from:oh-my-zsh
+zplug "plugins/npm", from:oh-my-zsh
+zplug "plugins/httpie", from:oh-my-zsh
+zplug "plugins/command-not-found", from:oh-my-zsh
+zplug "plugins/asdf", from:oh-my-zsh
+zplug "zsh-users/zsh-syntax-highlighting"
+
+zplug 'themes/avit', from:oh-my-zsh, as:theme
+
+
+
 for file in $HOME/.dotfiles/sourced/*; do
    source "$file"
  done
+
+
 
 # User configuration
 
