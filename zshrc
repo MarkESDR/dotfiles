@@ -20,6 +20,7 @@ zplug "plugins/httpie", from:oh-my-zsh
 zplug "plugins/command-not-found", from:oh-my-zsh
 zplug "plugins/asdf", from:oh-my-zsh
 zplug "zsh-users/zsh-syntax-highlighting"
+zplug "lukechilds/zsh-nvm"
 
 zplug 'themes/avit', from:oh-my-zsh, as:theme
 
