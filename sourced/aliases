@@ -1,0 +1,11 @@
+# Ubuntu 18 mouse fix on sleep
+alias scroll_fix='sudo modprobe -r psmouse && sudo modprobe psmouse'
+
+alias "cd.."="cd .."
+alias h="history"
+
+alias gaa="git add ."
+alias gcm="git commit -m"
+
+alias nv=nvim
+alias nvi=nvim
