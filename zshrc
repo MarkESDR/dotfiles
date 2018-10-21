@@ -10,6 +10,12 @@ HIST_STAMPS="yyyy-mm-dd"
 
 plugins=(
   git
+  yarn
+  sudo
+  npm
+  httpie
+  command-not-found
+  asdf
   zsh-syntax-highlighting
 )
 
