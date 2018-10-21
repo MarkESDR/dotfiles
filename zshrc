@@ -1,4 +1,3 @@
-# export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 export ZSH="$HOME/.oh-my-zsh"
 ZSH_THEME="avit"
@@ -26,4 +25,18 @@ if [[ -n $SSH_CONNECTION ]]; then
 else
   export EDITOR='nvim'
 fi
+
+export PATH=$PATH:/usr/local/go/bin
+export PATH=$HOME/bin:/usr/local/bin:$PATH
+export PATH=$PATH:$ANDROID_HOME/tools
+export PATH=$PATH:$ANDROID_HOME/tools/bin
+export PATH=$PATH:$ANDROID_HOME/platform-tools
+
+# Android stuff
+export ANDROID_HOME=$HOME/Android/Sdk
+export SDKMAN_DIR="$HOME/.sdkman"
+[[ -s "$HOME/.sdkman/bin/sdkman-init.sh" ]] && source "$HOME/.sdkman/bin/sdkman-init.sh"
+
+# Startup asdf
+. $HOME/.asdf/asdf.sh
 
