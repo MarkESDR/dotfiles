@@ -17,6 +17,7 @@ zplug "plugins/httpie", from:oh-my-zsh
 zplug "plugins/command-not-found", from:oh-my-zsh
 zplug "plugins/asdf", from:oh-my-zsh
 zplug "zsh-users/zsh-syntax-highlighting"
+zplug "zsh-users/zsh-autosuggestions"
 zplug "lukechilds/zsh-nvm"
 zplug "mdumitru/fancy-ctrl-z"
 
