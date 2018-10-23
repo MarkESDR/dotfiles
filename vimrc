@@ -98,7 +98,7 @@ set wildignore+=*/smarty/*,*/vendor/*,*/.git/*,*/.hg/*,*/.svn/*,*/.sass-cache/*,
 
 " netrw config
 let g:netrw_banner = 0 " Hide banner
-let g:netrw_liststyle = 3 " Tree style view
+let g:netrw_liststyle = 0 " One file per line
 let g:netrw_list_hide = ',*\node_modules'
 
 

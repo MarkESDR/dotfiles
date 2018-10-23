@@ -6,6 +6,7 @@ alias h="history"
 
 alias gaa="git add ."
 alias gcm="git commit -m"
+alias gaacm="git add . && git commit -m"
 
 alias nv=nvim
 alias nvi=nvim
