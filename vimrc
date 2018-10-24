@@ -105,3 +105,7 @@ let g:netrw_list_hide = ',*\node_modules'
 " vim-mix-format config
 let g:mix_format_on_save = 1
 
+
+" Delete all buffers except for current
+command Bda execute "%bd|e#"
+
