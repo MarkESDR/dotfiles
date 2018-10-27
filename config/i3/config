@@ -178,7 +178,7 @@ bindsym $mod+Mod1+l exec "~/suspend.sh"
 # Volume control
 bindsym XF86AudioRaiseVolume exec --no-startup-id amixer -c 1 set Master 5%+
 bindsym XF86AudioLowerVolume exec --no-startup-id amixer -c 1 set Master 5%-
-bindsym XF86AudioMute exec --no-startup-id ~/mute_toggl.sh
+bindsym XF86AudioMute exec --no-startup-id ~/.config/i3/mute_toggl.sh
 
 # Brightness control
 bindsym XF86MonBrightnessUp exec --no-startup-id lux -a 10%
