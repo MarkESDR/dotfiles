@@ -151,6 +151,26 @@ mode "resize" {
 
 bindsym $mod+r mode "resize"
 
+# Shutdown/reboot/lock screen
+set $Locker i3lock && sleep 1
+
+set $mode_system System (l) lock, (e) logout, (s) suspend, (h) hibernate, (r) reboot, (Shift+s) shutdown
+mode "$mode_system" {
+    bindsym l exec --no-startup-id $Locker, mode "default"
+    bindsym e exec --no-startup-id i3-msg exit, mode "default"
+    bindsym s exec --no-startup-id $Locker && systemctl suspend, mode "default"
+    bindsym h exec --no-startup-id $Locker && systemctl hibernate, mode "default"
+    bindsym r exec --no-startup-id systemctl reboot, mode "default"
+    bindsym Shift+s exec --no-startup-id systemctl poweroff -i, mode "default"  
+
+    # back to normal: Enter or Escape
+    bindsym Return mode "default"
+    bindsym Escape mode "default"
+}
+
+bindsym $mod+Shift+p mode "$mode_system"
+
+
 # i3bar
 bar {
 	position top
@@ -171,9 +191,6 @@ bindsym $mod+t border toggle
 # Shift through workspaces
 bindsym $mod+Next workspace next
 bindsym $mod+Prior workspace prev
-
-# Suspend shortcut
-bindsym $mod+Mod1+l exec "~/suspend.sh"
 
 # Volume control
 bindsym XF86AudioRaiseVolume exec --no-startup-id amixer -c 1 set Master 5%+
