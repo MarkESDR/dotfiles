@@ -153,7 +153,7 @@ bindsym $mod+r mode "resize"
 
 
 # Shutdown/reboot/lock screen
-set $Locker i3lock && sleep 1
+set $Locker i3lock -i ~/.config/i3/lockscreen -f && sleep 1
 set $Suspend systemctl suspend, mode "default"
 
 set $mode_system System (l) lock, (e) logout, (s) suspend, (h) hibernate, (r) reboot, (Shift+s) shutdown
