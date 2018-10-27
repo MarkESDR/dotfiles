@@ -151,14 +151,16 @@ mode "resize" {
 
 bindsym $mod+r mode "resize"
 
+
 # Shutdown/reboot/lock screen
 set $Locker i3lock && sleep 1
+set $Suspend systemctl suspend, mode "default"
 
 set $mode_system System (l) lock, (e) logout, (s) suspend, (h) hibernate, (r) reboot, (Shift+s) shutdown
 mode "$mode_system" {
     bindsym l exec --no-startup-id $Locker, mode "default"
     bindsym e exec --no-startup-id i3-msg exit, mode "default"
-    bindsym s exec --no-startup-id $Locker && systemctl suspend, mode "default"
+    bindsym s exec --no-startup-id $Locker && $Suspend
     bindsym h exec --no-startup-id $Locker && systemctl hibernate, mode "default"
     bindsym r exec --no-startup-id systemctl reboot, mode "default"
     bindsym Shift+s exec --no-startup-id systemctl poweroff -i, mode "default"  
@@ -169,6 +171,9 @@ mode "$mode_system" {
 }
 
 bindsym $mod+Shift+p mode "$mode_system"
+
+# Suspend shortcut
+bindsym $mod+Mod1+l exec --no-startup-id $Locker && $Suspend
 
 
 # i3bar
