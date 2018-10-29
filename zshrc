@@ -37,6 +37,10 @@ for file in $HOME/.dotfiles/sourced/*; do
    source "$file"
  done
 
+# Ensure C-left and C-right work properly
+bindkey "^[[1;5C" forward-word
+bindkey "^[[1;5D" backward-word
+
 
 
 [[ -s "$HOME/.sdkman/bin/sdkman-init.sh" ]] && source "$HOME/.sdkman/bin/sdkman-init.sh"
