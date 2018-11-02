@@ -192,7 +192,7 @@ client.urgent #77216f #77216f #ffffff #efb73e
 
 
 # Set width on new window
-new_window pixel 4
+new_window pixel 1
 hide_edge_borders smart
 
 
