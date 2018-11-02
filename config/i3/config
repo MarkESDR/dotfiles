@@ -167,10 +167,6 @@ mode "$mode_system" {
 bindsym $mod+Shift+p mode "$mode_system"
 
 
-# Suspend shortcut
-bindsym $mod+Mod1+l exec --no-startup-id $Locker && $Suspend
-
-
 # i3bar
 bar {
 	position top
