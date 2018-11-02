@@ -31,9 +31,13 @@ ethernet _first_ {
 }
 
 battery all {
-  format = "🔋%status %percentage %remaining"
+  format = "🔋%status%percentage %remaining"
   integer_battery_capacity = true
   hide_seconds = true
+  status_chr = "  "
+  status_bat = ""
+  status_unk = ""
+  status_full = "  "
 }
 
 tztime local {
