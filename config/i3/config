@@ -174,9 +174,9 @@ bar {
 	strip_workspace_numbers yes
 	font pango:monospace 10
   colors {
-    separator #333333
-    background #2c001e
-    statusline #aea79f
+    separator #555555
+    background #000000
+    statusline #dddddd
     focused_workspace #dd4814 #dd4814 #ffffff
     active_workspace #902a07 #902a07 #aea79f
     inactive_workspace #902a07 #902a07 #aea79f
