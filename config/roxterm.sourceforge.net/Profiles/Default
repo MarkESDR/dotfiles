@@ -1,0 +1,11 @@
+[roxterm profile]
+font=Droid Sans Mono for Powerline Plus Nerd File Types Mono 14
+colour_scheme=solarized-dark
+saturation=1.000000
+maximise=1
+full_screen=0
+vspacing=2
+show_add_tab_btn=0
+always_show_tabs=0
+use_custom_command=0
+command=tmux
