@@ -10,3 +10,6 @@
 [submodule "submodules/roxterm-solarized"]
 	path = submodules/roxterm-solarized
 	url = https://gist.github.com/923039
+[submodule "submodules/tpm"]
+	path = submodules/tpm
+	url = https://github.com/tmux-plugins/tpm
