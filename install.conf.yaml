@@ -18,11 +18,17 @@
     ~/.tmux.conf: 
     ~/.config/nvim/init.vim: init.vim
     ~/.config/i3: config/i3
+      force: true
     ~/.config/i3status: config/i3status
+      force: true
+
+    ~/.config/roxterm.sourceforge.net/Shortcuts: config/roxterm.sourceforge.net/Shortcuts
+      force: true
+    ~/.config/roxterm.sourceforge.net/Profiles: config/roxterm.sourceforge.net/Profiles
+      force: true
+    ~/.config/roxterm.sourceforge.net/Colours/solarized-dark: submodules/roxterm-solarized/solarized-dark
 
     # Plugin Managers
     ~/.local/share/nvim/site/autoload/plug.vim: submodules/vim-plug/plug.vim
     ~/.zgen/zgen.zsh: submodules/zgen/zgen.zsh
 
-    # Roxterm theme
-    ~/.config/roxterm.sourceforge.net/Colours/solarized-dark: submodules/roxterm-solarized/solarized-dark
