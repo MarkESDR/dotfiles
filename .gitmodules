@@ -7,3 +7,6 @@
 [submodule "submodules/zgen"]
 	path = submodules/zgen
 	url = https://github.com/tarjoilija/zgen.git
+[submodule "submodules/roxterm-solarized"]
+	path = submodules/roxterm-solarized
+	url = https://gist.github.com/923039
