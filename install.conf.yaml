@@ -9,7 +9,10 @@
   - [git submodule update --init --recursive, Installing submodules]
 
 - link:
+    # Link this repo into .dotfiles
     ~/.dotfiles: ''
+
+    # Config files
     ~/.vimrc: 
     ~/.zshrc: 
     ~/.tmux.conf: 
@@ -21,3 +24,5 @@
     ~/.local/share/nvim/site/autoload/plug.vim: submodules/vim-plug/plug.vim
     ~/.zgen/zgen.zsh: submodules/zgen/zgen.zsh
 
+    # Roxterm theme
+    ~/.config/roxterm.sourceforge.net/Colours/solarized-dark: submodules/roxterm-solarized/solarized-dark
