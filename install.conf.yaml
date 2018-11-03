@@ -18,4 +18,5 @@
 
     # Plugin Managers
     ~/.local/share/nvim/site/autoload/plug.vim: submodules/vim-plug/plug.vim
+    ~/.zgen: submodules/zgen
 
