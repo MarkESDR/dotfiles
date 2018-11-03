@@ -22,6 +22,7 @@ if ! zgen saved; then
   zgen oh-my-zsh plugins/httpie
   zgen oh-my-zsh plugins/command-not-found
   zgen oh-my-zsh plugins/asdf
+  zgen oh-my-zsh plugins/dirhistory
 
   zgen load zsh-users/zsh-syntax-highlighting
   zgen load zsh-users/zsh-autosuggestions
