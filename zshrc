@@ -1,3 +1,10 @@
+
+DISABLE_AUTO_UPDATE="true"
+DISABLE_AUTO_TITLE="true"
+ENABLE_CORRECTION="true"
+COMPLETION_WAITING_DOTS="true"
+HIST_STAMPS="yyyy-mm-dd"
+
 # load zgen
 source "${HOME}/.zgen/zgen.zsh"
 
