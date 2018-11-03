@@ -29,6 +29,7 @@ if ! zgen saved; then
   zgen load zsh-users/zsh-autosuggestions
   zgen load lukechilds/zsh-nvm
   zgen load mdumitru/fancy-ctrl-z
+  zgen load djui/alias-tips
 
   zgen oh-my-zsh themes/blinks
 
