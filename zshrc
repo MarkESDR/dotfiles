@@ -31,6 +31,7 @@ if ! zgen saved; then
   zgen load mdumitru/fancy-ctrl-z
   zgen load djui/alias-tips
   zgen load gusaiani/elixir-oh-my-zsh
+  zgen load zpm-zsh/ls
 
   zgen oh-my-zsh themes/blinks
 
