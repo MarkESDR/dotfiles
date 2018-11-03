@@ -30,6 +30,7 @@ if ! zgen saved; then
   zgen load lukechilds/zsh-nvm
   zgen load mdumitru/fancy-ctrl-z
   zgen load djui/alias-tips
+  zgen load gusaiani/elixir-oh-my-zsh
 
   zgen oh-my-zsh themes/blinks
 
