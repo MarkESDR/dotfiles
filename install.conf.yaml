@@ -1,6 +1,7 @@
 - defaults:
     link:
       relink: true
+      create: true
 
 - clean: ['~']
 
@@ -18,5 +19,5 @@
 
     # Plugin Managers
     ~/.local/share/nvim/site/autoload/plug.vim: submodules/vim-plug/plug.vim
-    ~/.zgen: submodules/zgen
+    ~/.zgen/zgen.zsh: submodules/zgen/zgen.zsh
 
