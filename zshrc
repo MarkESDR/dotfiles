@@ -29,7 +29,7 @@ if ! zgen saved; then
   zgen load zsh-users/zsh-autosuggestions
   zgen load lukechilds/zsh-nvm
   zgen load mdumitru/fancy-ctrl-z
-  zgen load djui/alias-tips
+  zgen load MichaelAquilina/zsh-you-should-use
   zgen load gusaiani/elixir-oh-my-zsh
   zgen load zpm-zsh/ls
 
