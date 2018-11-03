@@ -9,11 +9,13 @@
 
 - link:
     ~/.dotfiles: ''
-    ~/.vimrc: vimrc
+    ~/.vimrc: 
+    ~/.zshrc: 
+    ~/.tmux.conf: 
     ~/.config/nvim/init.vim: init.vim
-    ~/.zshrc: zshrc
-    ~/.tmux.conf: tmux.conf
     ~/.config/i3: config/i3
     ~/.config/i3status: config/i3status
+
+    # Plugin Managers
     ~/.local/share/nvim/site/autoload/plug.vim: submodules/vim-plug/plug.vim
 
