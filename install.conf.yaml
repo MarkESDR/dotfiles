@@ -12,6 +12,7 @@
     ~/.tmux.conf: tmux.conf
     ~/.config/i3: config/i3
     ~/.config/i3status: config/i3status
+    ~/.local/share/nvim/site/autoload/plug.vim: submodules/vim-plug/plug.vim
 
 - shell:
   - [git submodule update --init --recursive, Installing submodules]
