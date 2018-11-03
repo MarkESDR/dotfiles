@@ -1,41 +1,36 @@
-
-DISABLE_AUTO_UPDATE="true"
-DISABLE_AUTO_TITLE="true"
-ENABLE_CORRECTION="true"
-COMPLETION_WAITING_DOTS="true"
-HIST_STAMPS="yyyy-mm-dd"
-
+# load zgen
+source "${HOME}/.zgen/zgen.zsh"
 
 # ZPlug config
 source ~/.zplug/init.zsh
+if ! zgen saved; then
+  echo "Creating a zgen save"
 
-zplug "plugins/git", from:oh-my-zsh
-zplug "plugins/yarn", from:oh-my-zsh
-zplug "plugins/sudo", from:oh-my-zsh
-zplug "plugins/npm", from:oh-my-zsh
-zplug "plugins/httpie", from:oh-my-zsh
-zplug "plugins/command-not-found", from:oh-my-zsh
-zplug "plugins/asdf", from:oh-my-zsh
-zplug "zsh-users/zsh-syntax-highlighting"
-zplug "zsh-users/zsh-autosuggestions"
-zplug "lukechilds/zsh-nvm"
-zplug "mdumitru/fancy-ctrl-z"
+  zgen oh-my-zsh
 
-zplug 'themes/blinks', from:oh-my-zsh, as:theme
+  zgen oh-my-zsh plugins/git
+  zgen oh-my-zsh plugins/yarn
+  zgen oh-my-zsh plugins/sudo
+  zgen oh-my-zsh plugins/npm
+  zgen oh-my-zsh plugins/httpie
+  zgen oh-my-zsh plugins/command-not-found
+  zgen oh-my-zsh plugins/asdf
 
-if ! zplug check --verbose; then
-    printf "Install? [y/N]: "
-    if read -q; then
-        echo; zplug install
-    fi
+  zgen load zsh-users/zsh-syntax-highlighting
+  zgen load zsh-users/zsh-autosuggestions
+  zgen load lukechilds/zsh-nvm
+  zgen load mdumitru/fancy-ctrl-z
+
+  zgen oh-my-zsh themes/blinks
+
+  zgen save
 fi
-
-zplug load --verbose
 
 
 for file in $HOME/.dotfiles/sourced/*; do
    source "$file"
  done
+
 
 # Ensure C-left and C-right work properly
 bindkey "^[[1;5C" forward-word
