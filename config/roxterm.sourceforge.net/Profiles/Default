@@ -8,4 +8,5 @@ vspacing=2
 show_add_tab_btn=0
 always_show_tabs=0
 use_custom_command=0
-command=tmux
+command=zsh
+exit_action=2
