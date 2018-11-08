@@ -8,8 +8,6 @@ HIST_STAMPS="yyyy-mm-dd"
 # load zgen
 source "${HOME}/.zgen/zgen.zsh"
 
-# ZPlug config
-source ~/.zplug/init.zsh
 if ! zgen saved; then
   echo "Creating a zgen save"
 
