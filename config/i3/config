@@ -232,3 +232,9 @@ exec --no-startup-id nm-applet
 ## Misc startup tasks
 exec_always --no-startup-id ~/.config/i3/startup.sh
 
+## Window shadows
+exec --no-startup-id "compton -cC"
+
+## Arch updates
+exec --no-startup-id "sleep 2s && kalu"
+exec --no-startup-id /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1
