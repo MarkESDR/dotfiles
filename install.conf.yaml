@@ -40,5 +40,7 @@
     ~/.asdf: submodules/asdf
 
 - asdf:
-  - plugin: elixir
+  - plugin: erlang
     url: https://github.com/asdf-vm/asdf-erlang
+  - plugin: elixir
+    url: https://github.com/asdf-vm/asdf-elixir.git
