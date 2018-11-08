@@ -38,3 +38,6 @@
     ~/.zgen/zgen.zsh: submodules/zgen/zgen.zsh
     ~/.tmux/plugins/tpm: submodules/tpm
 
+- asdf:
+  - plugin: elixir
+    url: https://github.com/asdf-vm/asdf-erlang
