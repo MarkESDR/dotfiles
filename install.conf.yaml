@@ -37,6 +37,7 @@
     ~/.local/share/nvim/site/autoload/plug.vim: submodules/vim-plug/plug.vim
     ~/.zgen/zgen.zsh: submodules/zgen/zgen.zsh
     ~/.tmux/plugins/tpm: submodules/tpm
+    ~/.asdf: submodules/asdf
 
 - asdf:
   - plugin: elixir
