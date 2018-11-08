@@ -13,3 +13,6 @@
 [submodule "submodules/tpm"]
 	path = submodules/tpm
 	url = https://github.com/tmux-plugins/tpm
+[submodule "submodules/dotbot-asdf"]
+	path = submodules/dotbot-asdf
+	url = https://github.com/sobolevn/dotbot-asdf.git
