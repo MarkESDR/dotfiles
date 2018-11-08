@@ -16,3 +16,6 @@
 [submodule "submodules/dotbot-asdf"]
 	path = submodules/dotbot-asdf
 	url = https://github.com/sobolevn/dotbot-asdf.git
+[submodule "submodules/asdf"]
+	path = submodules/asdf
+	url = https://github.com/asdf-vm/asdf.git
