@@ -31,7 +31,8 @@ if ! zgen saved; then
   zgen load gusaiani/elixir-oh-my-zsh
   zgen load zpm-zsh/ls
 
-  zgen oh-my-zsh themes/blinks
+  zgen load mafredri/zsh-async
+  zgen load sindresorhus/pure
 
   zgen save
 fi
