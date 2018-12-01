@@ -9,5 +9,7 @@ alias gcm="git commit -m"
 alias gaacm="git add . && git commit -m"
 alias gltime="git log --pretty=format:\"%h%x09%an%x09%ad%x09%s\""
 
+alias capsctrl="setxkbmap -option ctrl:nocaps"
+
 alias nv=nvim
 alias nvi=nvim
