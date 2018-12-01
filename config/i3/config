@@ -16,9 +16,9 @@ bindsym $mod+Return exec roxterm
 bindsym $mod+Shift+q kill
 
 # Start dmenu (a program launcher)
-bindsym $mod+d exec dmenu_run
+# bindsym $mod+d exec dmenu_run
 # Only show apps with a .desktop file
-# bindsym $mod+d exec --no-startup-id i3-dmenu-desktop
+bindsym $mod+d exec --no-startup-id i3-dmenu-desktop
 
 # Change focused window with mouse hover
 focus_follows_mouse no
