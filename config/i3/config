@@ -215,7 +215,7 @@ bindsym XF86MonBrightnessDown exec --no-startup-id lux -s 10%
 # Startup tasks
 
 ## Set background
-exec --no-startup-id feh --bg-scale https://cdna.artstation.com/p/assets/images/images/003/061/580/large/alena-aenami-lighthouse1k.jpg?1469146970
+exec --no-startup-id "nitrogen --restore"
 
 ## Redtint screen at night
 exec --no-startup-id redshift
