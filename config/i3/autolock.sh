@@ -2,7 +2,7 @@
 
 # Lock the screen after 10 mins of inactivity
 
-LOCKER="i3lock -i ~/.config/i3/lockscreen -f && \
+LOCKER="i3lock-fancy -gp && \
   sleep 1 && \
   systemctl suspend, mode default"
 
