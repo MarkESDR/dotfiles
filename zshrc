@@ -22,6 +22,7 @@ if ! zgen saved; then
   zgen oh-my-zsh plugins/asdf
   zgen oh-my-zsh plugins/dirhistory
   zgen oh-my-zsh plugins/mix
+  zgen oh-my-zsh plugins/ssh-agent
 
   zgen load zsh-users/zsh-syntax-highlighting
   zgen load zsh-users/zsh-autosuggestions
