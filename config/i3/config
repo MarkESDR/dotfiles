@@ -169,7 +169,7 @@ bar {
   position top
   status_command i3status
 	strip_workspace_numbers yes
-	font pango:monospace 10
+	font pango:monospace 14
   colors {
     separator #555555
     background #000000
