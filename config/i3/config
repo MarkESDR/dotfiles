@@ -197,6 +197,9 @@ hide_edge_borders smart
 bindsym $mod+t border toggle
 
 
+# floating windows
+for_window [class="Kalu"] floating enable
+
 
 # Volume control
 bindsym XF86AudioRaiseVolume exec --no-startup-id amixer -D pulse set Master 5%+
