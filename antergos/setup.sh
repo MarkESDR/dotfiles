@@ -28,6 +28,7 @@ yay -S --needed \
   fcitx-mozc \
   fcitx-configtool \
   xautolock \
+  lux \
   \
   `# Fonts` \
   adobe-source-han-sans-jp-fonts \
