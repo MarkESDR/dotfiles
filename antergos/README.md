@@ -16,6 +16,7 @@ This directory contains install scripts to setup a machine running fresh Antergo
 
  - [Nvidia Optimus](https://antergos.com/wiki/hardware/bumblebee-for-nvidia-optimus/)
  - [Postgres](https://wiki.archlinux.org/index.php/PostgreSQL)
+ - [SSH Key](https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/)
 
 ## Anki plugins
 
