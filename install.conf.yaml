@@ -16,6 +16,7 @@
     ~/.vimrc: 
     ~/.zshrc: 
     ~/.tmux.conf: 
+    ~/.gitconfig:
     ~/.config/nvim/init.vim: init.vim
     ~/.config/i3:
       path: config/i3
