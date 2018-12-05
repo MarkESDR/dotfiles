@@ -2,6 +2,10 @@
 
 This directory contains install scripts to setup a machine running fresh Antergos using i3
 
+## Issues loading live usb
+
+ - If seeing `antergos error loading \arch\boot\vmlinuz not found” error. Is this a known problem?`, select `cd/dvd` boot option
+
 ## When installing Antergos
 
  - If using Nvidia Optimus, *DO NOT INSTALL NVIDIA DRIVERS*
