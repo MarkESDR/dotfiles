@@ -23,6 +23,11 @@ This directory contains install scripts to setup a machine running fresh Antergo
  - [Postgres](https://wiki.archlinux.org/index.php/PostgreSQL)
  - [SSH Key](https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/)
 
+## Run plugin managers
+
+ - **nvim**: `:PlugInstall`
+ - **tmux**: `C-b, I`
+
 ## Anki plugins
 
  - [Night Mode](https://ankiweb.net/shared/info/1496166067)
