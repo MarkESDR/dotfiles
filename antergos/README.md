@@ -10,6 +10,7 @@ This directory contains install scripts to setup a machine running fresh Antergo
 ## Config stuff
 
  - In `/etc/lightdm/lightdm.conf`, set `greeter-session=lightdm-slick-greeter`
+ - In `/etc/login.defs`, set `CHFN_RESTRICT frwh` 
  - Uncomment the japanese lines in `/etc/locale.gen`
 
 ## Tutorials to read after initial setup
