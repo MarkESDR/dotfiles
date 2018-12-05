@@ -25,6 +25,10 @@ yay -S \
   fcitx-mozc \
   fcitx-configtool \
   xautolock \
+  # Fonts
+  adobe-source-han-sans-jp-fonts \
+  otf-ipafont \
+  noto-fonts-emoji \
   # i3
   i3lock-color-git \
   i3lock-fancy \
