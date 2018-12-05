@@ -27,6 +27,7 @@ yay -S --needed \
   fcitx \
   fcitx-mozc \
   fcitx-configtool \
+  fcitx-im \
   xautolock \
   lux \
   \
