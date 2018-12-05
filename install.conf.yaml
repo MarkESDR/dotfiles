@@ -40,6 +40,9 @@
     ~/.tmux/plugins/tpm: submodules/tpm
     ~/.asdf: submodules/asdf
 
+- shell:
+  - ['export PATH=~/.dotfiles/submodules/asdf/bin:$PATH']
+
 - asdf:
   - plugin: erlang
     url: https://github.com/asdf-vm/asdf-erlang
