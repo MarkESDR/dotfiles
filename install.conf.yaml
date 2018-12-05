@@ -41,7 +41,7 @@
     ~/.asdf: submodules/asdf
 
 - shell:
-  - ['export PATH=~/.dotfiles/submodules/asdf/bin:$PATH']
+  - [nvim --headless +PlugInstall +qa]
 
 - asdf:
   - plugin: erlang
