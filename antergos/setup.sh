@@ -18,6 +18,13 @@ yay -S \
   tmux \
   bat \
   tldr \
+  p7zip \
+  heroku-cli \
+  # Tools
+  fcitx \
+  fcitx-mozc \
+  fcitx-configtool \
+  xautolock \
   # i3
   i3lock-color-git \
   i3lock-fancy \
@@ -25,4 +32,6 @@ yay -S \
   lightdm-slick-greeter \
   lightdm-settings \
   # Applications
-  thunderbird
+  thunderbird \
+  # Misc
+  redshift \
