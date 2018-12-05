@@ -1,14 +1,16 @@
 #!/bin/bash
 
-yay -S \
-  # Dev Env
+yay -S --needed \
+  `# Dev Env` \
   python \
   postgresql \
   redis \
   watchman \
   inotify-tools \
   yarn \
-  # Dev Tools
+  \
+  `# Dev Tools` \
+  zsh \
   vim \
   neovim \
   python-neovim \
@@ -20,22 +22,28 @@ yay -S \
   tldr \
   p7zip \
   heroku-cli \
-  # Tools
+  \
+  `# Tools` \
   fcitx \
   fcitx-mozc \
   fcitx-configtool \
   xautolock \
-  # Fonts
+  \
+  `# Fonts` \
   adobe-source-han-sans-jp-fonts \
   otf-ipafont \
   noto-fonts-emoji \
-  # i3
+  \
+  `# i3` \
   i3lock-color-git \
   i3lock-fancy \
-  # Display Manager
+  \
+  `# Display Manager` \
   lightdm-slick-greeter \
   lightdm-settings \
-  # Applications
+  \
+  `# Applications` \
   thunderbird \
-  # Misc
-  redshift \
+  \
+  `# Misc` \
+  redshift 
