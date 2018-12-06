@@ -37,6 +37,9 @@ Plug 'tpope/vim-vinegar'
 " Autocomplete on braces
 Plug 'Raimondi/delimitMate'
 
+" Seamless tmux+vim splits
+Plug 'christoomey/vim-tmux-navigator'
+
 " Colorschemes
 Plug 'altercation/vim-colors-solarized'
 Plug 'morhetz/gruvbox'
