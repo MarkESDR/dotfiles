@@ -1,3 +1,5 @@
 [user]
 	email = MarkESDR@gmail.com
 	name = Mark Emmanuel Del Rosario
+[cola]
+	spellcheck = false
