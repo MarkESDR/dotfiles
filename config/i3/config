@@ -19,6 +19,8 @@ bindsym $mod+Shift+q kill
 # Only show apps with a .desktop file
 bindsym $mod+d exec --no-startup-id i3-dmenu-desktop
 
+bindsym $mod+Shift+f exec --no-startup-id firefox
+
 # Change focused window with mouse hover
 focus_follows_mouse no
 
