@@ -24,9 +24,6 @@ bindsym $mod+Shift+f exec --no-startup-id firefox
 # Change focused window with mouse hover
 focus_follows_mouse no
 
-gaps outer 20
-gaps top 10
-
 # Change focus 
 ## vim bindings
 bindsym $mod+h focus left
@@ -83,28 +80,28 @@ bindsym $mod+a focus parent
 
 
 # Switch to workspace
-bindsym $mod+1 workspace "1:一"
-bindsym $mod+2 workspace "2:二"
-bindsym $mod+3 workspace "3:三"
-bindsym $mod+4 workspace "4:四"
-bindsym $mod+5 workspace "5:五"
-bindsym $mod+6 workspace "6:六"
-bindsym $mod+7 workspace "7:七"
-bindsym $mod+8 workspace "8:八"
-bindsym $mod+9 workspace "9:九"
-bindsym $mod+0 workspace "10:十"
+bindsym $mod+1 workspace 一
+bindsym $mod+2 workspace 二
+bindsym $mod+3 workspace 三
+bindsym $mod+4 workspace 四
+bindsym $mod+5 workspace 五
+bindsym $mod+6 workspace 六
+bindsym $mod+7 workspace 七
+bindsym $mod+8 workspace 八
+bindsym $mod+9 workspace 九
+bindsym $mod+0 workspace 十
 
 # Move focused container to workspace
-bindsym $mod+Shift+1 move container to workspace "1:一"
-bindsym $mod+Shift+2 move container to workspace "2:二"
-bindsym $mod+Shift+3 move container to workspace "3:三"
-bindsym $mod+Shift+4 move container to workspace "4:四"
-bindsym $mod+Shift+5 move container to workspace "5:五"
-bindsym $mod+Shift+6 move container to workspace "6:六"
-bindsym $mod+Shift+7 move container to workspace "7:七"
-bindsym $mod+Shift+8 move container to workspace "8:八"
-bindsym $mod+Shift+9 move container to workspace "9:九"
-bindsym $mod+Shift+0 move container to workspace "10:十"
+bindsym $mod+Shift+1 move container to workspace 一
+bindsym $mod+Shift+2 move container to workspace 二
+bindsym $mod+Shift+3 move container to workspace 三
+bindsym $mod+Shift+4 move container to workspace 四
+bindsym $mod+Shift+5 move container to workspace 五
+bindsym $mod+Shift+6 move container to workspace 六
+bindsym $mod+Shift+7 move container to workspace 七
+bindsym $mod+Shift+8 move container to workspace 八
+bindsym $mod+Shift+9 move container to workspace 九
+bindsym $mod+Shift+0 move container to workspace 十
 
 # Shift through workspaces
 bindsym $mod+Next workspace next
@@ -288,21 +285,6 @@ mode "$mode_gaps_left" {
 }
 
 # i3bar
-bar {
-  position top
-  status_command i3status
-	strip_workspace_numbers yes
-	font pango:monospace 14
-  colors {
-    separator #555555
-    background #000000
-    statusline #dddddd
-    focused_workspace #dd4814 #dd4814 #ffffff
-    active_workspace #902a07 #902a07 #aea79f
-    inactive_workspace #902a07 #902a07 #aea79f
-    urgent_workspace #77216f #77216f #ffffff
-  }
-}
 
 
 client.focused #dd4814 #dd4814 #ffffff #902a07

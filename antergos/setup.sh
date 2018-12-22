@@ -39,6 +39,7 @@ yay -S --needed \
   `# i3` \
   i3lock-color-git \
   i3lock-fancy \
+  polybar \
   \
   `# Display Manager` \
   lightdm-slick-greeter \

@@ -26,6 +26,10 @@
       path: config/i3status
       force: true
 
+    ~/.config/polybar:
+      path: config/polybar
+      force: true
+
     ~/.config/roxterm.sourceforge.net/Shortcuts:
       path: config/roxterm.sourceforge.net/Shortcuts
       force: true
