@@ -23,7 +23,7 @@ bindsym $mod+d exec --no-startup-id i3-dmenu-desktop
 focus_follows_mouse no
 
 gaps outer 20
-gaps top 10
+gaps top 0
 
 # Change focus 
 ## vim bindings
