@@ -15,6 +15,7 @@
     # Config files
     ~/.vimrc: 
     ~/.zshrc: 
+    ~/.xinitrc:
     ~/.tmux.conf: 
     ~/.gitconfig:
     ~/.config/nvim/init.vim: init.vim
