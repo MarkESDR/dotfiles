@@ -154,7 +154,7 @@ label-mode-background = ${colors.primary}
 
 ; focused = Active workspace on focused monitor
 ;label-focused = %index%
-label-focused = %name%
+label-focused = %icon%
 label-focused-background =  
 label-focused-foreground = ${colors.random}
 ;label-focused-underline = ${colors.random}
@@ -162,26 +162,31 @@ label-focused-padding = ${module/bspwm.label-focused-padding}
 label-focused-font = 4
 
 ; unfocused = Inactive workspace on any monitor
-label-unfocused = %name%
+label-unfocused = %icon%
 label-unfocused-padding = ${module/bspwm.label-occupied-padding}
 label-unfocused-font = 4
 label-unfocused-foreground = ${colors.foreground}
 ; visible = Active workspace on unfocused monitor
-label-visible = %name%
+label-visible = %icon%
 label-visible-background = ${self.label-focused-background}
 label-visible-underline = ${colors.random}
 label-visible-padding = ${self.label-focused-padding}
 label-visible-font = 4
 
 ; urgent = Workspace with urgency hint set
-label-urgent = %name%
+label-urgent = %icon%
 label-urgent-background = ${module/bspwm.label-urgent-background}
 label-urgent-padding = ${module/bspwm.label-urgent-padding}
 
 ; Separator in between workspaces
 ; label-separator = |
-
-ws-icon-default = 心
+;
+ws-icon-0 = 二;
+ws-icon-1 = 一;
+ws-icon-2 = chat;
+ws-icon-3 = code;
+ws-icon-4 = music;
+ws-icon-default = 
 
 [module/mpd]
 type = internal/mpd
