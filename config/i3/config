@@ -334,6 +334,9 @@ exec --no-startup-id fcitx-autostart
 ## Launch NetworkManager applet
 exec --no-startup-id nm-applet
 
+## Launch polybar
+exec --no-startup-id polybar -r carbo
+
 ## Misc startup tasks
 exec_always --no-startup-id ~/.config/i3/startup.sh
 
