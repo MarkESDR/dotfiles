@@ -17,6 +17,7 @@ yay -S --needed \
   xclip \
   postman-bin \
   roxterm \
+  termite \
   tmux \
   bat \
   tldr \
