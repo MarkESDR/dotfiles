@@ -48,6 +48,7 @@ yay -S --needed \
   \
   `# Applications` \
   thunderbird \
+  anki \
   \
   `# Misc` \
   redshift 
