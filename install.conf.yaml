@@ -30,6 +30,10 @@
       path: config/polybar
       force: true
 
+    ~/.config/termite:
+      path: config/termite
+      force: true
+
     ~/.config/roxterm.sourceforge.net/Shortcuts:
       path: config/roxterm.sourceforge.net/Shortcuts
       force: true
