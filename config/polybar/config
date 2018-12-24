@@ -64,7 +64,7 @@ font-7 = "Source Han Sans JP:pixelsize=14;1"
 
 modules-left = i3 
 modules-center = date clock 
-modules-right = alsa backlight-acpi xbacklight wifi-x15 battery 
+modules-right = alsa xbacklight wifi-x15 battery 
 
 tray-position = right
 tray-padding = 2

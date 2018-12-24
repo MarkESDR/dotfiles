@@ -323,7 +323,7 @@ bindsym XF86MonBrightnessDown exec --no-startup-id lux -s 10%
 exec --no-startup-id "nitrogen --restore"
 
 ## Redtint screen at night
-exec --no-startup-id redshift
+exec --no-startup-id redshift-gtk
 
 ## Setup autolock
 exec --no-startup-id ~/.config/i3/autolock.sh
