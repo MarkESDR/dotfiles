@@ -5,13 +5,14 @@ else
   export EDITOR='nvim'
 fi
 
+# Android stuff
+export ANDROID_HOME=$HOME/Android/Sdk
+export SDKMAN_DIR="$HOME/.sdkman"
+
 export PATH=$PATH:/usr/local/go/bin
 export PATH=$HOME/bin:/usr/local/bin:$PATH
 export PATH=$PATH:$ANDROID_HOME/tools
 export PATH=$PATH:$ANDROID_HOME/tools/bin
 export PATH=$PATH:$ANDROID_HOME/platform-tools
 
-# Android stuff
-export ANDROID_HOME=$HOME/Android/Sdk
-export SDKMAN_DIR="$HOME/.sdkman"
 
