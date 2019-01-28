@@ -37,6 +37,12 @@ Plug 'tpope/vim-vinegar'
 " Autocomplete on braces
 Plug 'Raimondi/delimitMate'
 
+" Better surround handling
+Plug 'tpope/vim-surround'
+
+" Better repeat
+Plug 'tpope/vim-repeat'
+
 " Seamless tmux+vim splits
 Plug 'christoomey/vim-tmux-navigator'
 
