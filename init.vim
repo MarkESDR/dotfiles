@@ -17,6 +17,7 @@ Plug 'carlitux/deoplete-ternjs', { 'do': 'npm install -g tern' } " JS
 Plug 'slashmili/alchemist.vim' " Elixir
 Plug 'Shougo/deoplete-clangx'
 Plug 'copy/deoplete-ocaml'
+Plug 'artur-shaik/vim-javacomplete2'
 
 " deoplete
 Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
