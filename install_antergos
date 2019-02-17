@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 
 CONFIG="install_antergos.conf.yaml"
-./install $CONFIG
+./install --config-file $CONFIG
