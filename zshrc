@@ -1,4 +1,3 @@
-
 DISABLE_AUTO_UPDATE="true"
 DISABLE_AUTO_TITLE="true"
 ENABLE_CORRECTION="true"
@@ -55,3 +54,5 @@ bindkey "^[[1;5D" backward-word
 # Startup asdf
 . $HOME/.asdf/asdf.sh
 
+# OPAM configuration
+. $HOME/.opam/opam-init/init.zsh > /dev/null 2> /dev/null || true
