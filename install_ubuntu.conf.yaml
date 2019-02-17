@@ -1,0 +1,48 @@
+- defaults:
+    link:
+      relink: true
+      create: true
+
+- clean: ['~']
+
+- shell:
+  - [git submodule update --init --recursive, Installing submodules]
+
+- link:
+    # Link this repo into .dotfiles
+    ~/.dotfiles: ''
+
+    # Config files
+    ~/.vimrc: 
+    ~/.zshrc: 
+    ~/.xinitrc:
+    ~/.tmux.conf: 
+    ~/.gitconfig:
+    ~/.config/nvim/init.vim: init.vim
+    ~/.config/i3:
+      path: config/i3_ubuntu
+      force: true
+    ~/.config/i3status: 
+      path: config/i3status
+      force: true
+
+    ~/.config/roxterm.sourceforge.net/Shortcuts:
+      path: config/roxterm.sourceforge.net/Shortcuts
+      force: true
+    ~/.config/roxterm.sourceforge.net/Profiles:
+      path: config/roxterm.sourceforge.net/Profiles
+      force: true
+    ~/.config/roxterm.sourceforge.net/Colours/solarized-dark: 
+      path: submodules/roxterm-solarized/solarized-dark
+
+    # Plugin Managers
+    ~/.local/share/nvim/site/autoload/plug.vim: submodules/vim-plug/plug.vim
+    ~/.zgen: submodules/zgen
+    ~/.tmux/plugins/tpm: submodules/tpm
+    ~/.asdf: submodules/asdf
+
+- asdf:
+  - plugin: erlang
+    url: https://github.com/asdf-vm/asdf-erlang
+  - plugin: elixir
+    url: https://github.com/asdf-vm/asdf-elixir.git

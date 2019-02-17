@@ -20,10 +20,7 @@
     ~/.gitconfig:
     ~/.config/nvim/init.vim: init.vim
     ~/.config/i3:
-      path: config/i3
-      force: true
-    ~/.config/i3status: 
-      path: config/i3status
+      path: config/i3_antergos
       force: true
 
     ~/.config/polybar:
@@ -33,15 +30,6 @@
     ~/.config/termite:
       path: config/termite
       force: true
-
-    ~/.config/roxterm.sourceforge.net/Shortcuts:
-      path: config/roxterm.sourceforge.net/Shortcuts
-      force: true
-    ~/.config/roxterm.sourceforge.net/Profiles:
-      path: config/roxterm.sourceforge.net/Profiles
-      force: true
-    ~/.config/roxterm.sourceforge.net/Colours/solarized-dark: 
-      path: submodules/roxterm-solarized/solarized-dark
 
     # Plugin Managers
     ~/.local/share/nvim/site/autoload/plug.vim: submodules/vim-plug/plug.vim
