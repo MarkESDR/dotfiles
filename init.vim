@@ -15,6 +15,7 @@ Plug 'sheerun/vim-polyglot'
 Plug 'ternjs/tern_for_vim', { 'do': 'npm install' } " JS
 Plug 'carlitux/deoplete-ternjs', { 'do': 'npm install -g tern' } " JS
 Plug 'slashmili/alchemist.vim' " Elixir
+Plug 'zchee/deoplete-jedi' " Python
 Plug 'Shougo/deoplete-clangx'
 Plug 'copy/deoplete-ocaml'
 Plug 'artur-shaik/vim-javacomplete2'
