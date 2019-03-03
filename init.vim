@@ -11,10 +11,13 @@ Plug 'ctrlpvim/ctrlp.vim'
 " Syntax for every language under the sun
 Plug 'sheerun/vim-polyglot'
 
+Plug 'vim-scripts/django.vim' " Django Templates
+
 " IDE language support
 Plug 'ternjs/tern_for_vim', { 'do': 'npm install' } " JS
 Plug 'carlitux/deoplete-ternjs', { 'do': 'npm install -g tern' } " JS
 Plug 'slashmili/alchemist.vim' " Elixir
+Plug 'zchee/deoplete-jedi' " Python
 Plug 'Shougo/deoplete-clangx'
 Plug 'copy/deoplete-ocaml'
 Plug 'artur-shaik/vim-javacomplete2'

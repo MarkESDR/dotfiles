@@ -42,3 +42,5 @@
     url: https://github.com/asdf-vm/asdf-erlang
   - plugin: elixir
     url: https://github.com/asdf-vm/asdf-elixir.git
+  - plugin: ruby
+    url: https://github.com/asdf-vm/asdf-ruby.git
