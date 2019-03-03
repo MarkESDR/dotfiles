@@ -204,7 +204,7 @@ for_window [class="Kalu"] floating enable
 # Volume control
 bindsym XF86AudioRaiseVolume exec --no-startup-id amixer -D pulse set Master 5%+
 bindsym XF86AudioLowerVolume exec --no-startup-id amixer -D pulse set Master 5%-
-bindsym XF86AudioMute exec --no-startup-id amixer sset Master toggle
+bindsym XF86AudioMute exec --no-startup-id ~/.config/i3/mute_toggl.sh
 
 
 # Brightness control
