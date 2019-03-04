@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+
+CONFIG="install_ubuntu.conf.yaml"
+./install --config-file $CONFIG

@@ -17,6 +17,7 @@ yay -S --needed \
   xclip \
   postman-bin \
   roxterm \
+  termite \
   tmux \
   bat \
   tldr \
@@ -39,6 +40,7 @@ yay -S --needed \
   `# i3` \
   i3lock-color-git \
   i3lock-fancy \
+  polybar \
   \
   `# Display Manager` \
   lightdm-slick-greeter \
@@ -46,6 +48,7 @@ yay -S --needed \
   \
   `# Applications` \
   thunderbird \
+  anki \
   \
   `# Misc` \
   redshift 

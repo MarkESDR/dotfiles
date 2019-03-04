@@ -15,11 +15,12 @@
     # Config files
     ~/.vimrc: 
     ~/.zshrc: 
+    ~/.xinitrc:
     ~/.tmux.conf: 
     ~/.gitconfig:
     ~/.config/nvim/init.vim: init.vim
     ~/.config/i3:
-      path: config/i3
+      path: config/i3_ubuntu
       force: true
     ~/.config/i3status: 
       path: config/i3status
@@ -45,3 +46,5 @@
     url: https://github.com/asdf-vm/asdf-erlang
   - plugin: elixir
     url: https://github.com/asdf-vm/asdf-elixir.git
+  - plugin: ruby
+    url: https://github.com/asdf-vm/asdf-ruby.git
