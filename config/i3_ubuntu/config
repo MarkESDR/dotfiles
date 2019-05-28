@@ -146,7 +146,7 @@ mode "$mode_system" {
     # Lock screen
     bindsym l exec --no-startup-id $Locker, mode "default"
     # Exit i3
-    bindsym e exec --no-startup-id i3-msg exit, mode "default"
+    bindsym e exec --no-startup-id ~/.config/i3/logout.sh, mode "default"
     # Suspend
     bindsym s exec --no-startup-id $Locker && $Suspend
     # Hibernate
