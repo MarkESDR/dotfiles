@@ -82,7 +82,11 @@ let g:ctrlp_user_command = ['.git', 'cd %s && git ls-files -co --exclude-standar
 
 
 " vim-mix-format config
-let g:mix_format_on_save = 1
+let g:mix_format_on_save = 0
+let g:mix_format_silent_errors = 1
+
+" autoformat on save
+autocmd BufWritePost *.exs,*.ex silent :!mix format %
 
 
 " Delete all buffers except for current
