@@ -23,6 +23,11 @@ set shiftwidth=2
 " On pressing tab, insert 4 spaces
 set expandtab
 
+" Proper word wrapping
+set wrap
+set linebreak
+set nolist
+
 " Ignore paths
 set wildignore+=.DS_Store
 set wildignore+=*.jpg,*.jpeg,*.gif,*.png,*.gif,*.psd,*.o,*.obj,*.min.js
