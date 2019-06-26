@@ -52,6 +52,8 @@ Plug 'tpope/vim-repeat'
 " Seamless tmux+vim splits
 Plug 'christoomey/vim-tmux-navigator'
 
+Plug 'mileszs/ack.vim'
+
 " Colorschemes
 Plug 'altercation/vim-colors-solarized'
 Plug 'morhetz/gruvbox'
