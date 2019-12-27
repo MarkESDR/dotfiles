@@ -235,6 +235,8 @@ exec_always --no-startup-id ~/.config/i3/startup.sh
 ## Window shadows
 exec --no-startup-id "compton -cC"
 
+exec --no-startup-id "blueman-applet"
+
 ## Arch updates
 exec --no-startup-id "sleep 2s && kalu"
 exec --no-startup-id /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1
