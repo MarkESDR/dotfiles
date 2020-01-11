@@ -238,7 +238,7 @@ exec --no-startup-id "compton -cC"
 exec --no-startup-id "blueman-applet"
 
 ## Workspace autostart
-exec i3-msg 'workspace 1:一; exec /usr/bin/roxterm -e tmux'
+exec i3-msg 'workspace 1:一; exec /usr/bin/roxterm -e ~/.config/i3/roxterm_start.sh'
 exec i3-msg 'workspace 2:二; exec /usr/bin/firefox'
 
 ## Arch updates
