@@ -237,6 +237,10 @@ exec --no-startup-id "compton -cC"
 
 exec --no-startup-id "blueman-applet"
 
+## Workspace autostart
+exec i3-msg 'workspace 1:一; exec /usr/bin/roxterm -e tmux'
+exec i3-msg 'workspace 2:二; exec /usr/bin/firefox'
+
 ## Arch updates
 exec --no-startup-id "sleep 2s && kalu"
 exec --no-startup-id /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1
