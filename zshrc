@@ -57,10 +57,3 @@ bindkey "^[[1;5D" backward-word
 # OPAM configuration
 . $HOME/.opam/opam-init/init.zsh > /dev/null 2> /dev/null || true
 
-
-
-if tmux info &> /dev/null; then
-else
-  sleep 1
-  tmux
-fi
