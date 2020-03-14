@@ -17,6 +17,7 @@
     ~/.zshrc: 
     ~/.xinitrc:
     ~/.xprofile:
+    ~/.Xresources:
     ~/.tmux.conf: 
     ~/.gitconfig:
     ~/.config/nvim/init.vim: init.vim
