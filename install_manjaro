@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+
+CONFIG="install_manjaro.conf.yaml"
+./install --config-file $CONFIG
