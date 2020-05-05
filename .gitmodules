@@ -19,3 +19,6 @@
 [submodule "submodules/asdf"]
 	path = submodules/asdf
 	url = https://github.com/asdf-vm/asdf.git
+[submodule "submodules/elixir-ls"]
+	path = submodules/elixir-ls
+	url = https://github.com/elixir-lsp/elixir-ls.git
