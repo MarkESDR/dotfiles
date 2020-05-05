@@ -300,7 +300,7 @@ exec --no-startup-id blueman-applet
 exec --no-startup-id redshift-gtk
 # exec_always --no-startup-id sbxkb
 exec --no-startup-id conky -c ~/.config/i3/conky.conf
-exec --no-startup-id xautolock -time 10 -locker $Locker
+exec --no-startup-id ~/.config/i3/autolock.sh
 exec_always --no-startup-id ff-theme-util
 exec_always --no-startup-id fix_xcursor
 
