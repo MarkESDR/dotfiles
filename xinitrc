@@ -64,3 +64,6 @@ get_session(){
 }
 
 exec $(get_session)
+
+unset BROWSER
+xdg-settings set default-web-browser brave-browser.desktop
