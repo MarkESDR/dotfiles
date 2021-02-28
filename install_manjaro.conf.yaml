@@ -38,24 +38,8 @@
 
 - shell:
   -
-    command: ./setup/zgen.zsh
+    command: sh -c "$(curl -fsSL https://raw.githubusercontent.com/zdharma/zinit/master/doc/install.sh)"
     quiet: false
     stdout: true
-    description: Setup zgen script
-
-- asdf:
-  - plugin: erlang
-    url: https://github.com/asdf-vm/asdf-erlang
-  - plugin: elixir
-    url: https://github.com/asdf-vm/asdf-elixir.git
-  - plugin: ruby
-    url: https://github.com/asdf-vm/asdf-ruby.git
-
-- shell:
-  - [cd ~ && asdf install, Install asdf plugins]
-  - 
-    command: ./setup/elixir_ls.sh
-    quiet: false
-    stdout: true
-    description: Install elixir-ls
+    description: Install zinit
 
