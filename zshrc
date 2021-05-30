@@ -43,13 +43,12 @@ autoload -Uz _zinit
 
 setopt promptsubst
 
-zinit snippet OMZ::plugins/git
-zinit snippet OMZ::plugins/sudo
+zinit snippet OMZ::plugins/git/git.plugin.zsh
+zinit snippet OMZ::plugins/sudo/sudo.plugin.zsh
 zinit snippet OMZ::plugins/npm
 zinit snippet OMZ::plugins/command-not-found
 # asfd completions give me an error for some reason lmao
 # zinit snippet OMZ::plugins/asdf
-zinit snippet OMZ::plugins/dirhistory
 zinit snippet OMZ::plugins/ssh-agent
 
 zinit ice blockf

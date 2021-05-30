@@ -3,6 +3,7 @@ alias scroll_fix='sudo modprobe -r psmouse && sudo modprobe psmouse'
 
 alias "cd.."="cd .."
 alias h="history"
+alias _="sudo"
 
 alias gaa="git add ."
 alias gcm="git commit -m"
