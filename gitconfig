@@ -3,3 +3,5 @@
 	name = Mark Emmanuel Del Rosario
 [cola]
 	spellcheck = false
+[pull]
+	rebase = true
