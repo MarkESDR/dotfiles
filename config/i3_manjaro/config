@@ -297,12 +297,15 @@ exec --no-startup-id fcitx-autostart
 exec --no-startup-id "setxkbmap -option ctrl:nocaps"
 exec --no-startup-id "xset m 00"
 exec --no-startup-id blueman-applet
-exec --no-startup-id redshift-gtk
 # exec_always --no-startup-id sbxkb
 exec --no-startup-id conky -c ~/.config/i3/conky.conf
 exec --no-startup-id ~/.config/i3/autolock.sh
 exec_always --no-startup-id ff-theme-util
 exec_always --no-startup-id fix_xcursor
+
+exec --no-startup-id --user enable redshift-gtk
+exec --no-startup-id /usr/lib/geoclue-2.0/demos/agent
+exec --no-startup-id redshift-gtk
 
 # Color palette used for the terminal ( ~/.Xresources file )
 # Colors are gathered based on the documentation:
